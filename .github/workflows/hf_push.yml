@@ -16,4 +16,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://alexstedev:$HF_TOKEN@huggingface.co/spaces/alexstedev/metis main
+        run: git push https://anchita:$HF_TOKEN@huggingface.co/spaces/anchita/proj-trail main
